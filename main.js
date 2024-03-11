@@ -1,8 +1,8 @@
 const axios = require('axios');
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = '7031361604:AAE6kwMBBBC6qvyAqqLRzfbOJ07KlD0Y7tQ';
-const id = 616100619;
+const token = '';
+const id = 0;
 const urlPhoto = 'https://picsum.photos/200/300';
 const bot = new TelegramBot(token, { polling: true })
 console.log('Telegram bot succesfully started...\n');
